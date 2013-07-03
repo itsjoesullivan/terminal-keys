@@ -8,7 +8,11 @@ var keyMap = {
 	'tab': '\t',
 	'backspace':'\b',
 	'space': ' ',
-	'escape': 'esc'
+	'escape': 'esc',
+	'up': '↑',
+	'down': '↓',
+	'left': '←',
+	'right': '→'
 };
 
 var Keys = module.exports = function() {
