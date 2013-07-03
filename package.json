@@ -1,6 +1,6 @@
 {
   "name": "terminal-keys",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Set up keystrokes in terminal",
   "main": "index.js",
   "dependencies": {
