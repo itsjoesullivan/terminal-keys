@@ -21,7 +21,7 @@ var Keys = module.exports = function() {
 	process.stdin.on('keypress', function(ch,key) {
 		var name;
 		if(key && key.ctrl && key.name) {
-			name = '<C-' + key.name + '>';
+			name = '<Ctrl-' + key.name + '>';
 		} else if(!key && typeof ch === 'string') {
 			name = ch;
 		} else {
